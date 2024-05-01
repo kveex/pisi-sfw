@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "pisi",
+  "version": "${version}",
+  "name": "Pisi",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/kveee/pisi-sfw"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/pisi/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "kveex.pisi.client.PisiClient"
+    ],
+    "main": [
+      "kveex.pisi.Pisi"
+    ]
+  },
+  "mixins": [
+    "pisi.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

@@ -9,7 +9,6 @@
     "repo": "https://github.com/kveee/pisi-sfw"
   },
   "license": "All-Rights-Reserved",
-  "icon": "assets/pisi/icon.png",
   "environment": "*",
   "entrypoints": {
     "client": [

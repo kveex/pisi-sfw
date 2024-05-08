@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "pisi:bundle_of_seeds"
+    }
+  ],
+  "result": {
+    "item": "minecraft:wheat_seeds",
+    "count": 9
+  }
+}

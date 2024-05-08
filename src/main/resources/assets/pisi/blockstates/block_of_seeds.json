@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "pisi:block/block_of_seeds_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "pisi:block/block_of_seeds"
+    },
+    "axis=z": {
+      "model": "pisi:block/block_of_seeds_horizontal",
+      "x": 90
+    }
+  }
+}

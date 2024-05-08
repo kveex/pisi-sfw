@@ -1,0 +1,20 @@
+{
+  "itemgroup.pisi.blocks": "Блоки из Pisi",
+  "itemgroup.pisi.items": "Предметы из Pisi",
+
+  "block.pisi.gunpowder_block": "Блок пороха",
+  "block.pisi.block_of_seeds": "Блок семян",
+
+  "item.pisi.warm_stick": "Палки на пару",
+  "item.pisi.bundle_of_seeds": "Мешок семян",
+
+  "item.pisi.ring": "Кольцо",
+  "item.pisi.ring_with_diamond": "Кольцо с алмазиком",
+  "item.pisi.ring_with_amethyst": "Кольцо с аметистом",
+  "item.pisi.ring_with_emerald": "Кольцо с изумрудом",
+
+  "tooltip.pisi.ring": "Просто милое колечко",
+  "tooltip.pisi.ring_with_diamond": "Ты чувствуешь себя быстрее",
+  "tooltip.pisi.ring_with_amethyst": "Ты чувствуешь себя сильнее",
+  "tooltip.pisi.ring_with_emerald": "Кажется, сегодня удачный день"
+}

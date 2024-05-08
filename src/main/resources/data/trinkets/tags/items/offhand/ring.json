@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "pisi:ring",
+    "pisi:ring_with_diamond",
+    "pisi:ring_with_amethyst",
+    "pisi:ring_with_emerald"
+  ]
+}

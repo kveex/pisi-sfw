@@ -1,0 +1,20 @@
+{
+  "itemgroup.pisi.blocks": "Pisi Blocks",
+  "itemgroup.pisi.items": "Pisi Items",
+
+  "block.pisi.gunpowder_block": "Gunpowder Block",
+  "block.pisi.block_of_seeds": "Block of Seeds",
+
+  "item.pisi.warm_stick": "Warm Sticks",
+  "item.pisi.bundle_of_seeds": "Bundle of Seeds",
+
+  "item.pisi.ring": "Ring",
+  "item.pisi.ring_with_diamond": "Ring with Diamond",
+  "item.pisi.ring_with_amethyst": "Ring with Amethyst",
+  "item.pisi.ring_with_emerald": "Ring with Emerald",
+
+  "tooltip.pisi.ring": "Just a cute ring :3",
+  "tooltip.pisi.ring_with_diamond": "You feels faster",
+  "tooltip.pisi.ring_with_amethyst": "You feels stronger",
+  "tooltip.pisi.ring_with_emerald": "Looks like it's a lucky day"
+}

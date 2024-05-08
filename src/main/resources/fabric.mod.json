@@ -4,7 +4,9 @@
   "version": "${version}",
   "name": "Pisi",
   "description": "",
-  "authors": [],
+  "authors": [
+    "kveex"
+  ],
   "contact": {
     "repo": "https://github.com/kveee/pisi-sfw"
   },

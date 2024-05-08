@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "pisi:block/gunpowder_block"
+    }
+  }
+}

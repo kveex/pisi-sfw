@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "pisi:block/alt_oak_slab"
+    },
+    "type=double": {
+      "model": "pisi:block/alt_oak_plank"
+    },
+    "type=top": {
+      "model": "pisi:block/alt_oak_slab_top"
+    }
+  }
+}

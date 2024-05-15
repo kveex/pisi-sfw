@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "pisi:block/alt_oak_plank"
+    }
+  }
+}

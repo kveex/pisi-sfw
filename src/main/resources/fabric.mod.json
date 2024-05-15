@@ -18,6 +18,9 @@
     ],
     "main": [
       "kveex.pisi.Pisi"
+    ],
+    "fabric-datagen": [
+      "kveex.pisi.datagen.ModDataGeneration"
     ]
   },
   "mixins": [

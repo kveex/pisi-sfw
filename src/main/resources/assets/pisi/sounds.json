@@ -1,0 +1,38 @@
+{
+  "berb": {
+    "sounds": [
+      {
+        "name": "pisi:berb",
+        "stream": true
+      }
+    ]
+  },
+  "cat_quest": {
+    "sounds": [
+      {
+        "name": "pisi:cat_quest",
+        "streams": true
+      }
+    ]
+  },
+  "war_without_reason": {
+    "sounds": [
+      {
+        "name": "pisi:war_without_reason",
+        "streams": true
+      }
+    ]
+  },
+  "slimed_glowstone_dust_break": {
+    "subtitle": "subtitles.block.generic.break",
+    "sounds": [
+      "pisi:slimed_glowstone_dust_break"
+    ]
+  },
+  "slimed_glowstone_dust_place": {
+    "subtitle": "subtitles.block.generic.place",
+    "sounds": [
+      "pisi:slimed_glowstone_dust_place"
+    ]
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "pisi:berb_disc",
+    "pisi:cat_quest_disc",
+    "pisi:war_without_reason_disc"
+  ]
+}

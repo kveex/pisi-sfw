@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "pisi:block/alt_oak_plank",
+    "side": "pisi:block/alt_oak_plank",
+    "top": "pisi:block/alt_oak_plank"
+  }
+}

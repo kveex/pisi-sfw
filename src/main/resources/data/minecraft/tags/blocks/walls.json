@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "pisi:alt_oak_wall",
+    "pisi:alt_spruce_wall",
+    "pisi:oak_wall",
+    "pisi:spruce_wall",
+    "pisi:birch_wall",
+    "pisi:jungle_wall",
+    "pisi:acacia_wall",
+    "pisi:dark_oak_wall",
+    "pisi:mangrove_wall",
+    "pisi:cherry_wall",
+    "pisi:bamboo_wall",
+    "pisi:crimson_wall",
+    "pisi:warped_wall"
+  ]
+}

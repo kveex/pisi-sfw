@@ -17,8 +17,10 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModBlocks.GUNPOWDER_BLOCK))
                     .displayName(Text.translatable("itemgroup.pisi.blocks"))
                     .entries(((displayContext, entries) -> {
+                        //Blocks
                         entries.add(ModBlocks.GUNPOWDER_BLOCK);
                         entries.add(ModBlocks.BLOCK_OF_SEEDS);
+                        entries.add(ModBlocks.SLIMED_GLOWSTONE_DUST);
                     }))
                     .build());
     public static final ItemGroup PISI_ITEMS = Registry.register(Registries.ITEM_GROUP, new Identifier(Pisi.MOD_ID, "items"),
@@ -26,8 +28,15 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModItems.BUNDLE_OF_SEEDS))
                     .displayName(Text.translatable("itemgroup.pisi.items"))
                     .entries(((displayContext, entries) -> {
+                        entries.add(ModItems.AMETHYST_UPGRADE_SMITHING_TEMPLATE);
                         entries.add(ModItems.BUNDLE_OF_SEEDS);
                         entries.add(ModItems.WARM_STICK);
+                        entries.add(ModItems.BERB_DISC_FRAGMENT);
+
+                        entries.add(ModItems.BERB_DISC);
+                        entries.add(ModItems.CAT_QUEST_DISC);
+                        entries.add(ModItems.WAR_WITHOUT_REASON_DISC);
+
                         entries.add(ModItems.RING);
                         entries.add(ModItems.RING_WITH_DIAMOND);
                         entries.add(ModItems.RING_WITH_AMETHYST);

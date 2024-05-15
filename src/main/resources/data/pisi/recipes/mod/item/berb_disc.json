@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "fff",
+    "fgf",
+    "fff"
+  ],
+  "key": {
+    "f": {
+      "item": "pisi:disc_fragment_berb"
+    },
+    "g": {
+      "item": "minecraft:raw_gold"
+    }
+  },
+  "result": {
+    "item": "pisi:berb_disc",
+    "count": 1
+  }
+}

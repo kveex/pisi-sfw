@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "pisi:block/alt_oak_pressure_plate"
+    },
+    "powered=true": {
+      "model": "pisi:block/alt_oak_pressure_plate_down"
+    }
+  }
+}

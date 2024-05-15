@@ -2,6 +2,8 @@ package kveex.pisi;
 
 import kveex.pisi.blocks.ModBlocks;
 import kveex.pisi.items.ModItems;
+import kveex.pisi.sounds.ModSounds;
+import kveex.pisi.utils.FlammableBlocks;
 import kveex.pisi.utils.ModItemGroups;
 import kveex.pisi.utils.ModTrades;
 import net.fabricmc.api.ModInitializer;
@@ -17,9 +19,11 @@ public class Pisi implements ModInitializer {
     public void onInitialize() {
         LOGGER.info("PISI");
 
+        ModSounds.registerSounds();
         ModItemGroups.registerGroups();
         ModBlocks.registerModBlocks();
         ModItems.registerModItems();
         ModTrades.registerModTrades();
+        FlammableBlocks.registerFire();
     }
 }

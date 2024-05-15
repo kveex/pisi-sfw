@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_trapdoor_open",
+  "textures": {
+    "texture": "pisi:block/alt_spruce_trapdoor"
+  }
+}

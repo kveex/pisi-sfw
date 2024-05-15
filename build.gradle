@@ -23,24 +23,14 @@ repositories {
 
 loom {
     runs {
-        // This adds a new gradle task that runs the datagen API: "gradlew runDatagen"
-        datagen {
-            inherit server
-            name "Data Generation"
-            vmArg "-Dfabric-api.datagen"
-            vmArg "-Dfabric-api.datagen.output-dir=${file("src/main/generated")}"
-            vmArg "-Dfabric-api.datagen.modid=tutorialmod"
-
-            runDir "build/datagen"
-        }
     }
 }
 
 sourceSets {
     main {
         resources {
-            srcDirs +=
-                    ['src/main/generated'
+            srcDirs += [
+                    'src/main/generated'
             ]
         }
     }
@@ -118,4 +108,7 @@ publishing {
         // The repositories here will be used for publishing your artifact, not for
         // retrieving dependencies.
     }
+}
+fabricApi {
+    configureDataGeneration()
 }

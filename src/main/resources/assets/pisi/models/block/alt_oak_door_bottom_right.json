@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_bottom_right",
+  "textures": {
+    "bottom": "pisi:block/alt_oak_door_bottom",
+    "top": "pisi:block/alt_oak_door_top"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "pisi:item/amethyst_golden_shovel"
+  }
+}

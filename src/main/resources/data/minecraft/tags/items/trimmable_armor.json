@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "pisi:shiny_helmet",
+    "pisi:shiny_chestplate",
+    "pisi:shiny_leggings",
+    "pisi:shiny_boots",
+    "pisi:amethyst_golden_helmet",
+    "pisi:amethyst_golden_chestplate",
+    "pisi:amethyst_golden_leggings",
+    "pisi:amethyst_golden_boots",
+    "pisi:amethyst_diamond_helmet",
+    "pisi:amethyst_diamond_chestplate",
+    "pisi:amethyst_diamond_leggings",
+    "pisi:amethyst_diamond_boots",
+    "pisi:amethyst_netherite_helmet",
+    "pisi:amethyst_netherite_chestplate",
+    "pisi:amethyst_netherite_leggings",
+    "pisi:amethyst_netherite_boots"
+  ]
+}

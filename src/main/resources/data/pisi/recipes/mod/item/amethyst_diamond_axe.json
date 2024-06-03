@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "pisi:amethyst_upgrade_smithing_template"
+  },
+  "base": {
+    "item": "minecraft:diamond_axe"
+  },
+  "addition": {
+    "item": "minecraft:amethyst_shard"
+  },
+  "result": {
+    "item": "pisi:amethyst_diamond_axe",
+    "count": 1
+  }
+}

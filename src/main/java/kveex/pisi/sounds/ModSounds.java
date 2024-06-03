@@ -1,6 +1,7 @@
 package kveex.pisi.sounds;
 
 import kveex.pisi.Pisi;
+import net.minecraft.item.Items;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.sound.BlockSoundGroup;
@@ -14,7 +15,10 @@ public class ModSounds {
     public static final SoundEvent Berb = registerSoundEvent("berb");
     public static final SoundEvent WWR = registerSoundEvent("war_without_reason");
     //Armor
-
+    public static final SoundEvent Amethyst_Golden_Armor_Equip = registerSoundEvent("amethyst_golden_armor_equip");
+    public static final SoundEvent Amethyst_Diamond_Armor_Equip = registerSoundEvent("amethyst_diamond_armor_equip");
+    public static final SoundEvent Amethyst_Netherite_Armor_Equip = registerSoundEvent("amethyst_netherite_armor_equip");
+    public static final SoundEvent Shiny_Armor_Equip = registerSoundEvent("shiny_armor_equip");
     //Blocks
     public static final SoundEvent SlimedGlowStoneBreak = registerSoundEvent("slimed_glowstone_dust_break");
     public static final SoundEvent SlimedGlowStoneStep = registerSoundEvent("slimed_glowstone_dust_step");

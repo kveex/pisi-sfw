@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ccc",
+    "g g",
+    "cbc"
+  ],
+  "key": {
+    "c": {
+      "item": "minecraft:copper_block"
+    },
+    "g": {
+      "item": "minecraft:glass"
+    },
+    "b": {
+      "item": "minecraft:lava_bucket"
+    }
+  },
+  "result": {
+    "item": "pisi:lava_lamp"
+  }
+}

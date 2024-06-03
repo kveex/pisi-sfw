@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "pisi:amethyst_upgrade_smithing_template"
+  },
+  "base": {
+    "item": "minecraft:netherite_sword"
+  },
+  "addition": {
+    "item": "minecraft:amethyst_cluster"
+  },
+  "result": {
+    "item": "pisi:amethyst_netherite_spiked_sword",
+    "count": 1
+  }
+}

@@ -2,6 +2,7 @@ package kveex.pisi.blocks;
 
 import kveex.pisi.Pisi;
 import kveex.pisi.blocks.custom.GunpowderBlock;
+import kveex.pisi.blocks.custom.LavaLamp;
 import kveex.pisi.blocks.custom.SeedsBlock;
 import kveex.pisi.blocks.custom.SlimedGlowStoneBlock;
 import kveex.pisi.sounds.ModSounds;
@@ -17,6 +18,8 @@ import net.minecraft.item.Items;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.sound.BlockSoundGroup;
+import net.minecraft.sound.SoundEvent;
+import net.minecraft.sound.SoundEvents;
 import net.minecraft.util.Identifier;
 
 public class ModBlocks {
@@ -28,10 +31,32 @@ public class ModBlocks {
     public static final Block BLOCK_OF_SEEDS = registerBlocks("block_of_seeds",
             new SeedsBlock(FabricBlockSettings.create()
                     .strength(0.5f).sounds(BlockSoundGroup.GRASS)));
-    public static final Block SLIMED_GLOWSTONE_DUST =registerBlocks("slimed_glowstone_dust",
+    public static final Block SLIMED_GLOWSTONE_DUST = registerBlocks("slimed_glowstone_dust",
             new SlimedGlowStoneBlock(FabricBlockSettings.create()
                     .sounds(ModSounds.SlimedGlowStoneBlock).luminance(11)
                     .collidable(false).breakInstantly().nonOpaque()));
+    //Lamps-----------------------------------------------------------------------------------------------------------\\
+    public static final Block LAVA_LAMP = registerBlocks("lava_lamp",
+            new LavaLamp(FabricBlockSettings.create()
+                    .strength(2.5f).luminance(9).sounds(BlockSoundGroup.GLASS).nonOpaque()));
+    public static final Block LAVA_LAMP_RED = registerBlocks("lava_lamp_red",
+            new LavaLamp(FabricBlockSettings.create()
+                    .strength(2.5f).luminance(9).sounds(BlockSoundGroup.GLASS).nonOpaque()));
+    public static final Block LAVA_LAMP_BLUE = registerBlocks("lava_lamp_blue",
+            new LavaLamp(FabricBlockSettings.create()
+                    .strength(2.5f).luminance(9).sounds(BlockSoundGroup.GLASS).nonOpaque()));
+    public static final Block LAVA_LAMP_YELLOW = registerBlocks("lava_lamp_yellow",
+            new LavaLamp(FabricBlockSettings.create()
+                    .strength(2.5f).luminance(9).sounds(BlockSoundGroup.GLASS).nonOpaque()));
+    public static final Block LAVA_LAMP_LIME = registerBlocks("lava_lamp_lime",
+            new LavaLamp(FabricBlockSettings.create()
+                    .strength(2.5f).luminance(9).sounds(BlockSoundGroup.GLASS).nonOpaque()));
+    public static final Block LAVA_LAMP_PINK = registerBlocks("lava_lamp_pink",
+            new LavaLamp(FabricBlockSettings.create()
+                    .strength(2.5f).luminance(9).sounds(BlockSoundGroup.GLASS).nonOpaque()));
+    public static final Block LAVA_LAMP_PURPLE = registerBlocks("lava_lamp_purple",
+            new LavaLamp(FabricBlockSettings.create()
+                    .strength(2.5f).luminance(9).sounds(BlockSoundGroup.GLASS).nonOpaque()));
     //Walls-----------------------------------------------------------------------------------------------------------\\
     public static final Block OAK_WALL = registerBlocks("oak_wall", new WallBlock(FabricBlockSettings.create()
             .sounds(BlockSoundGroup.WOOD).strength(WOOD)));
@@ -56,22 +81,39 @@ public class ModBlocks {
     public static final Block WARPED_WALL = registerBlocks("warped_wall", new WallBlock(FabricBlockSettings.create()
             .sounds(BlockSoundGroup.WOOD).strength(WOOD)));
     //Alt Oak---------------------------------------------------------------------------------------------------------\\
-    public static final Block ALT_OAK_PLANK = registerBlocks("alt_oak_plank", new Block(FabricBlockSettings.create().sounds(BlockSoundGroup.WOOD).strength(WOOD)));
-    public static final Block ALT_OAK_STAIRS = registerBlocks("alt_oak_stairs", new StairsBlock(ModBlocks.ALT_OAK_PLANK.getDefaultState(), FabricBlockSettings.create().sounds(BlockSoundGroup.WOOD).strength(WOOD)));
-    public static final Block ALT_OAK_SLAB = registerBlocks("alt_oak_slab", new SlabBlock(FabricBlockSettings.create().sounds(BlockSoundGroup.WOOD).strength(WOOD)));
-    public static final Block ALT_OAK_BUTTON = registerBlocks("alt_oak_button", new ButtonBlock(BlockSetType.OAK, 10, FabricBlockSettings.create().sounds(BlockSoundGroup.WOOD).strength(WOOD).noCollision()));
-    public static final Block ALT_OAK_PRESSURE_PLATE = registerBlocks("alt_oak_pressure_plate", new PressurePlateBlock(BlockSetType.OAK, FabricBlockSettings.create().sounds(BlockSoundGroup.WOOD).strength(WOOD).noCollision()));
-    public static final Block ALT_OAK_FENCE = registerBlocks("alt_oak_fence", new FenceBlock(FabricBlockSettings.create().sounds(BlockSoundGroup.WOOD).strength(WOOD)));
-    public static final Block ALT_OAK_FENCE_GATE = registerBlocks("alt_oak_fence_gate", new FenceGateBlock(WoodType.OAK, FabricBlockSettings.create().sounds(BlockSoundGroup.WOOD).strength(WOOD)));
-    public static final Block ALT_OAK_WALL = registerBlocks("alt_oak_wall", new WallBlock(FabricBlockSettings.create().sounds(BlockSoundGroup.WOOD).strength(WOOD)));
-    public static final Block ALT_OAK_DOOR = registerBlocks("alt_oak_door", new DoorBlock(BlockSetType.OAK, FabricBlockSettings.create().sounds(BlockSoundGroup.WOOD).strength(WOOD).nonOpaque()));
-    public static final Block ALT_OAK_TRAPDOOR = registerBlocks("alt_oak_trapdoor", new TrapdoorBlock(BlockSetType.OAK, FabricBlockSettings.create().sounds(BlockSoundGroup.WOOD).strength(WOOD).nonOpaque()));
-    public static final Block ALT_SPRUCE_PLANK = registerBlocks("alt_spruce_plank", new Block(FabricBlockSettings.create().sounds(BlockSoundGroup.WOOD).strength(WOOD)));
-    public static final Block ALT_SPRUCE_STAIRS = registerBlocks    ("alt_spruce_stairs", new StairsBlock(ModBlocks.ALT_SPRUCE_PLANK.getDefaultState(), FabricBlockSettings.create().sounds(BlockSoundGroup.WOOD).strength(WOOD)));
-    public static final Block ALT_SPRUCE_SLAB = registerBlocks("alt_spruce_slab", new SlabBlock(FabricBlockSettings.create().sounds(BlockSoundGroup.WOOD).strength(WOOD)));
-    public static final Block ALT_SPRUCE_WALL = registerBlocks  ("alt_spruce_wall", new WallBlock(FabricBlockSettings.create().sounds(BlockSoundGroup.WOOD).strength(WOOD)));
-    public static final Block ALT_SPRUCE_DOOR = registerBlocks("alt_spruce_door", new DoorBlock(BlockSetType.SPRUCE, FabricBlockSettings.create().sounds(BlockSoundGroup.WOOD).strength(WOOD).nonOpaque()));
-    public static final Block ALT_SPRUCE_TRAPDOOR = registerBlocks("alt_spruce_trapdoor", new TrapdoorBlock(BlockSetType.SPRUCE, FabricBlockSettings.create().sounds(BlockSoundGroup.WOOD).strength(WOOD).nonOpaque()));
+    public static final Block ALT_OAK_PLANK = registerBlocks("alt_oak_plank", new Block(FabricBlockSettings.create()
+            .sounds(BlockSoundGroup.WOOD).strength(WOOD)));
+    public static final Block ALT_OAK_STAIRS = registerBlocks("alt_oak_stairs", new StairsBlock(ModBlocks.ALT_OAK_PLANK.getDefaultState(),
+            FabricBlockSettings.create().sounds(BlockSoundGroup.WOOD).strength(WOOD)));
+    public static final Block ALT_OAK_SLAB = registerBlocks("alt_oak_slab", new SlabBlock(FabricBlockSettings.create()
+            .sounds(BlockSoundGroup.WOOD).strength(WOOD)));
+    public static final Block ALT_OAK_BUTTON = registerBlocks("alt_oak_button", new ButtonBlock(BlockSetType.OAK, 10,
+            FabricBlockSettings.create().sounds(BlockSoundGroup.WOOD).strength(WOOD).noCollision()));
+    public static final Block ALT_OAK_PRESSURE_PLATE = registerBlocks("alt_oak_pressure_plate", new PressurePlateBlock(BlockSetType.OAK,
+            FabricBlockSettings.create().sounds(BlockSoundGroup.WOOD).strength(WOOD).noCollision()));
+    public static final Block ALT_OAK_FENCE = registerBlocks("alt_oak_fence", new FenceBlock(FabricBlockSettings.create()
+            .sounds(BlockSoundGroup.WOOD).strength(WOOD)));
+    public static final Block ALT_OAK_FENCE_GATE = registerBlocks("alt_oak_fence_gate", new FenceGateBlock(WoodType.OAK,
+            FabricBlockSettings.create().sounds(BlockSoundGroup.WOOD).strength(WOOD)));
+    public static final Block ALT_OAK_WALL = registerBlocks("alt_oak_wall", new WallBlock(FabricBlockSettings.create()
+            .sounds(BlockSoundGroup.WOOD).strength(WOOD)));
+    public static final Block ALT_OAK_DOOR = registerBlocks("alt_oak_door", new DoorBlock(BlockSetType.OAK, FabricBlockSettings.create()
+            .sounds(BlockSoundGroup.WOOD).strength(WOOD).nonOpaque()));
+    public static final Block ALT_OAK_TRAPDOOR = registerBlocks("alt_oak_trapdoor", new TrapdoorBlock(BlockSetType.OAK, FabricBlockSettings.create()
+            .sounds(BlockSoundGroup.WOOD).strength(WOOD).nonOpaque()));
+    //Alt Spruce------------------------------------------------------------------------------------------------------\\
+    public static final Block ALT_SPRUCE_PLANK = registerBlocks("alt_spruce_plank", new Block(FabricBlockSettings.create()
+            .sounds(BlockSoundGroup.WOOD).strength(WOOD)));
+    public static final Block ALT_SPRUCE_STAIRS = registerBlocks("alt_spruce_stairs", new StairsBlock(ModBlocks.ALT_SPRUCE_PLANK.getDefaultState(),
+            FabricBlockSettings.create().sounds(BlockSoundGroup.WOOD).strength(WOOD)));
+    public static final Block ALT_SPRUCE_SLAB = registerBlocks("alt_spruce_slab", new SlabBlock(FabricBlockSettings.create()
+            .sounds(BlockSoundGroup.WOOD).strength(WOOD)));
+    public static final Block ALT_SPRUCE_WALL = registerBlocks("alt_spruce_wall", new WallBlock(FabricBlockSettings.create()
+            .sounds(BlockSoundGroup.WOOD).strength(WOOD)));
+    public static final Block ALT_SPRUCE_DOOR = registerBlocks("alt_spruce_door", new DoorBlock(BlockSetType.SPRUCE, FabricBlockSettings.create()
+            .sounds(BlockSoundGroup.WOOD).strength(WOOD).nonOpaque()));
+    public static final Block ALT_SPRUCE_TRAPDOOR = registerBlocks("alt_spruce_trapdoor", new TrapdoorBlock(BlockSetType.SPRUCE, FabricBlockSettings.create()
+            .sounds(BlockSoundGroup.WOOD).strength(WOOD).nonOpaque()));
     //----------------------------------------------------------------------------------------------------------------\\
     private static void addBlocksToBuilding(FabricItemGroupEntries entries){
         //ALT_OAK

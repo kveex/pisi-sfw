@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "pisi:item/amethyst_netherite_boots"
+  }
+}

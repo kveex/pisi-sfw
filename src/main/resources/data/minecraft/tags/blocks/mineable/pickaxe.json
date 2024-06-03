@@ -1,0 +1,11 @@
+{
+  "values": [
+    "pisi:lava_lamp",
+    "pisi:lava_lamp_red",
+    "pisi:lava_lamp_blue",
+    "pisi:lava_lamp_yellow",
+    "pisi:lava_lamp_lime",
+    "pisi:lava_lamp_pink",
+    "pisi:lava_lamp_purple"
+  ]
+}

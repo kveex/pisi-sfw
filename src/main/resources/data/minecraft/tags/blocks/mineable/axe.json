@@ -1,0 +1,31 @@
+{
+  "values": [
+    "pisi:alt_oak_plank",
+    "pisi:alt_oak_stairs",
+    "pisi:alt_oak_slab",
+    "pisi:alt_oak_button",
+    "pisi:alt_oak_pressure_plate",
+    "pisi:alt_oak_fence",
+    "pisi:alt_oak_fence_gate",
+    "pisi:alt_oak_wall",
+    "pisi:alt_oak_door",
+    "pisi:alt_oak_trapdoor",
+    "pisi:alt_spruce_plank",
+    "pisi:alt_spruce_stairs",
+    "pisi:alt_spruce_slab",
+    "pisi:alt_spruce_wall",
+    "pisi:alt_spruce_door",
+    "pisi:alt_spruce_trapdoor",
+    "pisi:oak_wall",
+    "pisi:spruce_wall",
+    "pisi:birch_wall",
+    "pisi:jungle_wall",
+    "pisi:acacia_wall",
+    "pisi:dark_oak_wall",
+    "pisi:mangrove_wall",
+    "pisi:cherry_wall",
+    "pisi:bamboo_wall",
+    "pisi:crimson_wall",
+    "pisi:warped_wall"
+  ]
+}

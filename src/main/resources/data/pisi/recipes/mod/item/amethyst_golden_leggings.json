@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "pisi:amethyst_upgrade_smithing_template"
+  },
+  "base": {
+    "item": "minecraft:golden_leggings"
+  },
+  "addition": {
+    "item": "minecraft:amethyst_cluster"
+  },
+  "result": {
+    "item": "pisi:amethyst_golden_leggings",
+    "count": 1
+  }
+}

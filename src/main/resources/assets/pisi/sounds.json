@@ -34,5 +34,30 @@
     "sounds": [
       "pisi:slimed_glowstone_dust_place"
     ]
+  },
+  "amethyst_golden_armor_equip": {
+  "subtitle": "subtitles.armor.amethyst_golden.equip",
+    "sounds": [
+      "pisi:equip_amethyst_gold_armor"
+    ]
+  },
+  "amethyst_diamond_armor_equip": {
+    "subtitle": "subtitles.armor.amethyst_diamond.equip",
+    "sounds": [
+      "pisi:equip_amethyst_diamond_armor"
+    ]
+  },
+  "amethyst_netherite_armor_equip": {
+    "subtitle": "subtitles.armor.amethyst_netherite.equip",
+    "sounds": [
+      "pisi:equip_amethyst_netherite_armor"
+    ]
+  },
+  "shiny_armor_equip": {
+    "subtitle": "subtitles.armor.shiny.equip",
+    "sounds": [
+      "pisi:equip_shiny_armor_1",
+      "pisi:equip_shiny_armor_2"
+    ]
   }
 }

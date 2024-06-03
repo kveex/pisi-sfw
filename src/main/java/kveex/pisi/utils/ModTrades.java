@@ -18,5 +18,14 @@ public class ModTrades {
                     ));
                 }
         );
+        TradeOfferHelper.registerVillagerOffers(VillagerProfession.CARTOGRAPHER, 3,
+                factories -> {
+                    factories.add(((entity, random) -> new TradeOffer(
+                            new ItemStack(Items.EMERALD, 32),
+                            new ItemStack(ModItems.CAT_QUEST_DISC, 1),
+                            6,5, 0.05f)
+                    ));
+                }
+        );
     }
 }

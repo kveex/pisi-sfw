@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "activated=false": {
+      "model": "pisi:block/lava_lamp_lime"
+    },
+    "activated=true": {
+      "model": "pisi:block/lava_lamp_lime_act"
+    }
+  }
+}

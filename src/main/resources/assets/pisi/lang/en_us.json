@@ -73,6 +73,11 @@
   "item.pisi.war_without_reason_disc": "§cMusic Disc",
   "item.pisi.war_without_reason_disc.desc": "War Without Reason - Hakita",
 
+  "item.pisi.rotting_ore": "Rotting Ore",
+  "item.pisi.shiny_ore": "Shiny Ore",
+  "item.pisi.shiny_ores": "Shiny Ores",
+  "item.pisi.shiny_ingot": "Shiny Ingot",
+
   "tooltip.pisi.ring": "Just a cute ring :3",
   "tooltip.pisi.ring_with_diamond": "You feels faster",
   "tooltip.pisi.ring_with_amethyst": "You feels stronger",

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "pisi:amethyst_upgrade_smithing_template"
+  },
+  "base": {
+    "item": "minecraft:golden_helmet"
+  },
+  "addition": {
+    "item": "minecraft:amethyst_cluster"
+  },
+  "result": {
+    "item": "pisi:amethyst_golden_helmet",
+    "count": 1
+  }
+}
+

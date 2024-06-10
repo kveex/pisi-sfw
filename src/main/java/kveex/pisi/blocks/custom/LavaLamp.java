@@ -22,24 +22,28 @@ import net.minecraft.world.WorldView;
 import org.jetbrains.annotations.Nullable;
 
 public class LavaLamp extends Block implements Waterloggable{
+    public static final VoxelShape SHAPE = Block.createCuboidShape(5, 0, 5, 11, 16, 11);
     public static final BooleanProperty WATERLOGGED = Properties.WATERLOGGED;
     public static final BooleanProperty HANGING = Properties.HANGING;
     public static final BooleanProperty ACTIVATED = BooleanProperty.of("activated");
     public LavaLamp(Settings settings) {
         super(settings);
-        setDefaultState(this.stateManager.getDefaultState().with(HANGING, false).with(ACTIVATED, false).with(WATERLOGGED, false));
+        setDefaultState(this.stateManager.getDefaultState()
+                .with(HANGING, false)
+                .with(ACTIVATED, false)
+                .with(WATERLOGGED, false));
     }
-    @Override
+    @Override //Shape
     public VoxelShape getOutlineShape(BlockState state, BlockView world, BlockPos pos, ShapeContext context) {
-        return VoxelShapes.cuboid(0.31f, 0f, 0.31f, 0.69f, 1f, 0.69f);
+        return SHAPE;
     }
-    @Override
+    @Override //Properties
     protected void appendProperties(StateManager.Builder<Block, BlockState> builder) {
         super.appendProperties(builder);
         builder.add(ACTIVATED, WATERLOGGED, HANGING);
     }
 
-    @Override
+    @Override //Changing "activated" state
     public ActionResult onUse(BlockState state, World world, BlockPos pos, PlayerEntity player, Hand hand, BlockHitResult hit) {
         if (!world.isClient() && hand == Hand.MAIN_HAND) {
             world.setBlockState(pos, state.cycle(ACTIVATED));
@@ -50,7 +54,7 @@ public class LavaLamp extends Block implements Waterloggable{
     }
 
     @Nullable
-    @Override
+    @Override //Something for attachment lamp on ceiling and floor and waterlogging
     public BlockState getPlacementState(ItemPlacementContext ctx) {
         FluidState fluidState = ctx.getWorld().getFluidState(ctx.getBlockPos());
         for (Direction direction : ctx.getPlacementDirections()) {
@@ -61,7 +65,7 @@ public class LavaLamp extends Block implements Waterloggable{
         return null;
     }
 
-    @Override
+    @Override //Something for attachment lamp on ceiling and floor
     public boolean canPlaceAt(BlockState state, WorldView world, BlockPos pos) {
         Direction direction = LavaLamp.attachedDirection(state).getOpposite();
         return Block.sideCoversSmallSquare(world, pos.offset(direction), direction.getOpposite());
@@ -70,7 +74,7 @@ public class LavaLamp extends Block implements Waterloggable{
     protected static Direction attachedDirection(BlockState state) {
         return state.get(HANGING) != false ? Direction.DOWN : Direction.UP;
     }
-    @Override
+    @Override //For waterlogging
     public BlockState getStateForNeighborUpdate(BlockState state, Direction direction, BlockState neighborState, WorldAccess world, BlockPos pos, BlockPos neighborPos) {
         if (state.get(WATERLOGGED).booleanValue()) {
             world.scheduleFluidTick(pos, Fluids.WATER, Fluids.WATER.getTickRate(world));
@@ -80,7 +84,7 @@ public class LavaLamp extends Block implements Waterloggable{
         }
         return super.getStateForNeighborUpdate(state, direction, neighborState, world, pos, neighborPos);
     }
-    @Override
+    @Override //For waterlogging
     public FluidState getFluidState(BlockState state) {
         return state.get(WATERLOGGED) ? Fluids.WATER.getStill(false) : super.getFluidState(state);
     }

@@ -1,5 +1,6 @@
 package kveex.pisi;
 
+import kveex.pisi.blocks.ModBlockEntities;
 import kveex.pisi.blocks.ModBlocks;
 import kveex.pisi.items.ModItems;
 import kveex.pisi.sounds.ModSounds;
@@ -21,6 +22,7 @@ public class Pisi implements ModInitializer {
 
         ModSounds.registerSounds();
         ModItemGroups.registerGroups();
+        ModBlockEntities.registerBlockEntities();
         ModBlocks.registerModBlocks();
         ModItems.registerModItems();
         ModTrades.registerModTrades();

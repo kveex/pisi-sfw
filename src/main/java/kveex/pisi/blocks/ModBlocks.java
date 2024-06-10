@@ -1,10 +1,8 @@
 package kveex.pisi.blocks;
 
 import kveex.pisi.Pisi;
-import kveex.pisi.blocks.custom.GunpowderBlock;
-import kveex.pisi.blocks.custom.LavaLamp;
-import kveex.pisi.blocks.custom.SeedsBlock;
-import kveex.pisi.blocks.custom.SlimedGlowStoneBlock;
+import kveex.pisi.blocks.custom.*;
+import kveex.pisi.blocks.custom.pots.deepslate.PotBlockB;
 import kveex.pisi.sounds.ModSounds;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
@@ -18,8 +16,6 @@ import net.minecraft.item.Items;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.sound.BlockSoundGroup;
-import net.minecraft.sound.SoundEvent;
-import net.minecraft.sound.SoundEvents;
 import net.minecraft.util.Identifier;
 
 public class ModBlocks {
@@ -35,6 +31,9 @@ public class ModBlocks {
             new SlimedGlowStoneBlock(FabricBlockSettings.create()
                     .sounds(ModSounds.SlimedGlowStoneBlock).luminance(11)
                     .collidable(false).breakInstantly().nonOpaque()));
+    //Deepslate Pots--------------------------------------------------------------------------------------------------\\
+    public static final Block DEEPSLATE_POT_B = registerBlocks("deepslate_pot_b",
+            new PotBlockB(FabricBlockSettings.create()));
     //Lamps-----------------------------------------------------------------------------------------------------------\\
     public static final Block LAVA_LAMP = registerBlocks("lava_lamp",
             new LavaLamp(FabricBlockSettings.create()

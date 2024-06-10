@@ -33,12 +33,12 @@ public class SlimedGlowStoneBlock extends MultifaceGrowthBlock {
         return state -> MultifaceGrowthBlock.hasAnyDirection(state) ? luminance : 0;
     }
 
-    @Override
+    @Override //Properties
     protected void appendProperties(StateManager.Builder<Block, BlockState> builder) {
         super.appendProperties(builder);
         builder.add(WATERLOGGED);
     }
-    @Override
+    @Override //For waterlogging
     public BlockState getStateForNeighborUpdate(BlockState state, Direction direction, BlockState neighborState, WorldAccess world, BlockPos pos, BlockPos neighborPos) {
         if (state.get(WATERLOGGED).booleanValue()) {
             world.scheduleFluidTick(pos, Fluids.WATER, Fluids.WATER.getTickRate(world));
@@ -51,7 +51,7 @@ public class SlimedGlowStoneBlock extends MultifaceGrowthBlock {
         return null;
     }
 
-    @Override
+    @Override //For waterlogging
     public FluidState getFluidState(BlockState state) {
         if (state.get(WATERLOGGED).booleanValue()) {
             return Fluids.WATER.getStill(false);
@@ -59,7 +59,7 @@ public class SlimedGlowStoneBlock extends MultifaceGrowthBlock {
         return super.getFluidState(state);
     }
 
-    @Override
+    @Override //Hui
     public boolean isTransparent(BlockState state, BlockView world, BlockPos pos) {
         return state.getFluidState().isEmpty();
     }

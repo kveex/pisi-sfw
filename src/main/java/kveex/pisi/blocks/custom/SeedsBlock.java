@@ -13,7 +13,7 @@ public class SeedsBlock extends PillarBlock {
         this.setDefaultState((BlockState)((BlockState)this.stateManager.getDefaultState()).with(AXIS, Direction.Axis.Y));
     }
 
-    @Override
+    @Override //Reduce damage on fall
     public void onLandedUpon(World world, BlockState state, BlockPos pos, Entity entity, float fallDistance) {
         entity.handleFallDamage(fallDistance, 0.2f, world.getDamageSources().fall());
     }

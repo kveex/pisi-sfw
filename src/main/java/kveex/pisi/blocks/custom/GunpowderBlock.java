@@ -22,7 +22,7 @@ public class GunpowderBlock extends FallingBlock {
         return null;
     }
 
-    @Override
+    @Override //Creating explosion on click
     public ActionResult onUse(BlockState state, World world, BlockPos pos, PlayerEntity player, Hand hand, BlockHitResult hit) {
         if ((player.getMainHandStack().isOf(Items.FIRE_CHARGE) || player.getMainHandStack().isOf(Items.FLINT_AND_STEEL))) {
             world.removeBlock(pos, false);

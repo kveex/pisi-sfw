@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "pisi:block/deepslate_pot_ts", "uvlock": false },
+    "facing=east":  { "model": "pisi:block/deepslate_pot_ts", "y":  90, "uvlock": false },
+    "facing=south": { "model": "pisi:block/deepslate_pot_ts", "y": 180, "uvlock": false },
+    "facing=west":  { "model": "pisi:block/deepslate_pot_ts", "y": 270, "uvlock": false }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "pisi:block/deepslate_pot_n"
+    }
+  }
+}

@@ -6,6 +6,11 @@
     "pisi:lava_lamp_yellow",
     "pisi:lava_lamp_lime",
     "pisi:lava_lamp_pink",
-    "pisi:lava_lamp_purple"
+    "pisi:lava_lamp_purple",
+    "pisi:deepslate_pot_b",
+    "pisi:deepslate_pot_n",
+    "pisi:deepslate_pot_t",
+    "pisi:deepslate_pot_te",
+    "pisi:deepslate_pot_ts"
   ]
 }

@@ -21,6 +21,12 @@ public class ModItemGroups {
                         entries.add(ModBlocks.GUNPOWDER_BLOCK);
                         entries.add(ModBlocks.BLOCK_OF_SEEDS);
                         entries.add(ModBlocks.SLIMED_GLOWSTONE_DUST);
+                        //Deepslate pots
+                        entries.add(ModBlocks.DEEPSLATE_POT_N);
+                        entries.add(ModBlocks.DEEPSLATE_POT_B);
+                        entries.add(ModBlocks.DEEPSLATE_POT_T);
+                        entries.add(ModBlocks.DEEPSLATE_POT_TE);
+                        entries.add(ModBlocks.DEEPSLATE_POT_TS);
                         //Lava Lamps
                         entries.add(ModBlocks.LAVA_LAMP);
                         entries.add(ModBlocks.LAVA_LAMP_RED);

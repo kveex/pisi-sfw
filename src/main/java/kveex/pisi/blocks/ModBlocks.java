@@ -2,7 +2,7 @@ package kveex.pisi.blocks;
 
 import kveex.pisi.Pisi;
 import kveex.pisi.blocks.custom.*;
-import kveex.pisi.blocks.custom.pots.deepslate.PotBlockB;
+import kveex.pisi.blocks.custom.pots.*;
 import kveex.pisi.sounds.ModSounds;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
@@ -20,6 +20,7 @@ import net.minecraft.util.Identifier;
 
 public class ModBlocks {
     private static final float WOOD = 2.0f;
+    private static final float STONE = 1.5f;
     //Registering blocks----------------------------------------------------------------------------------------------\\
     public static final Block GUNPOWDER_BLOCK = registerBlocks("gunpowder_block",
             new GunpowderBlock(FabricBlockSettings.create()
@@ -33,7 +34,15 @@ public class ModBlocks {
                     .collidable(false).breakInstantly().nonOpaque()));
     //Deepslate Pots--------------------------------------------------------------------------------------------------\\
     public static final Block DEEPSLATE_POT_B = registerBlocks("deepslate_pot_b",
-            new PotBlockB(FabricBlockSettings.create()));
+            new DeepslatePotBlockB(FabricBlockSettings.create().strength(STONE)));
+    public static final Block DEEPSLATE_POT_N = registerBlocks("deepslate_pot_n",
+            new DeepslatePotBlockN(FabricBlockSettings.create().strength(STONE)));
+    public static final Block DEEPSLATE_POT_T = registerBlocks("deepslate_pot_t",
+            new DeepslatePotBlockT(FabricBlockSettings.create().strength(STONE)));
+    public static final Block DEEPSLATE_POT_TE = registerBlocks("deepslate_pot_te",
+            new DeepslatePotBlockT(FabricBlockSettings.create().strength(STONE)));
+    public static final Block DEEPSLATE_POT_TS = registerBlocks("deepslate_pot_ts",
+            new DeepslatePotBlockTs(FabricBlockSettings.create().strength(STONE).nonOpaque()));
     //Lamps-----------------------------------------------------------------------------------------------------------\\
     public static final Block LAVA_LAMP = registerBlocks("lava_lamp",
             new LavaLamp(FabricBlockSettings.create()
@@ -161,5 +170,4 @@ public class ModBlocks {
         Pisi.LOGGER.info("PisiBlocks");
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(ModBlocks::addBlocksToBuilding);
     }
-
 }

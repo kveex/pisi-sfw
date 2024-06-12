@@ -1,9 +1,8 @@
 {
-	"credit": "|kveex work|",
 	"texture_size": [64, 64],
 	"textures": {
 		"0": "pisi:block/deepslate_pot_b",
-		"particle": "pisi:block/deepslate_pot_b"
+		"particle": "minecraft:block/deepslate"
 	},
 	"elements": [
 		{

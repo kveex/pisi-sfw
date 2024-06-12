@@ -1,13 +1,12 @@
 {
-	"credit": "|kveex work|",
 	"texture_size": [64, 64],
 	"textures": {
-		"1": "my_stuff:block/deepslate_jug_t",
+		"1": "pisi:block/deepslate_pot_t",
 		"2": "minecraft:block/sculk_shrieker_side",
 		"3": "minecraft:block/sculk_shrieker_top",
 		"4": "minecraft:block/sculk_shrieker_inner_top",
 		"5": "minecraft:block/sculk_sensor_bottom",
-		"particle": "my_stuff:block/deepslate_jug_t"
+		"particle": "minecraft:block/deepslate"
 	},
 	"elements": [
 		{

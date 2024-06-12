@@ -1,6 +1,5 @@
 package kveex.pisi.datagen;
 
-import kveex.pisi.datagen.*;
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
 

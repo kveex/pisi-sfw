@@ -35,6 +35,35 @@
       "pisi:slimed_glowstone_dust_place"
     ]
   },
+  "steel_block_break": {
+    "subtitle": "subtitles.block.generic.break",
+    "sounds": [
+      "pisi:steel_place"
+    ]
+  },
+  "steel_block_hit": {
+    "subtitle": "subtitles.block.generic.hit",
+    "sounds": [
+      "pisi:steel_place"
+    ]
+  },
+  "steel_block_step": {
+    "subtitle": "subtitles.block.generic.footsteps",
+    "sounds": [
+      "pisi:steel_step"
+    ]
+  },
+  "steel_block_fall": {
+    "sounds": [
+      "pisi:steel_step"
+    ]
+  },
+  "steel_block_place": {
+    "subtitle": "subtitles.block.generic.place",
+    "sounds": [
+      "pisi:steel_place"
+    ]
+  },
   "amethyst_golden_armor_equip": {
   "subtitle": "subtitles.armor.amethyst_golden.equip",
     "sounds": [

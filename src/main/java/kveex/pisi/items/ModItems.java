@@ -1,6 +1,7 @@
 package kveex.pisi.items;
 
 import kveex.pisi.Pisi;
+import kveex.pisi.items.custom.FunnyIngotItem;
 import kveex.pisi.items.custom.ModArmorItem;
 import kveex.pisi.items.custom.rings.Ring;
 import kveex.pisi.items.custom.rings.RingWithAmethyst;
@@ -23,6 +24,9 @@ public class ModItems {
     public static final Item BUNDLE_OF_SEEDS = registerItems("bundle_of_seeds", new Item(new FabricItemSettings().maxCount(16)));
     public static final Item BERB_DISC_FRAGMENT = registerItems("disc_fragment_berb", new Item(new FabricItemSettings().maxCount(8)));
     public static final Item AMETHYST_UPGRADE_SMITHING_TEMPLATE = registerItems("amethyst_upgrade_smithing_template", new Item(new FabricItemSettings()));
+    //Steel Items-----------------------------------------------------------------------------------------------------\\
+    public static final Item STEEL_INGOT = registerItems("steel_ingot", new Item(new FabricItemSettings()));
+    public static final Item FUNNY_INGOT = registerItems("funny_ingot", new FunnyIngotItem(new FabricItemSettings()));
     //Shiny Items-----------------------------------------------------------------------------------------------------------\\
     public static final Item ROTTING_ORE = registerItems("rotting_ore", new Item(new FabricItemSettings()));
     public static final Item SHINY_ORE = registerItems("shiny_ore", new Item(new FabricItemSettings()));

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "blocks",
+  "pattern": [
+    "#$#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:coal"
+    },
+    "$": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "pisi:steel_ingot",
+    "count": 1
+  }
+}

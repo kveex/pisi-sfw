@@ -77,6 +77,7 @@ public class ModItemGroups {
                         entries.add(ModItems.BUNDLE_OF_SEEDS);
                         entries.add(ModItems.WARM_STICK);
                         entries.add(ModItems.BERB_DISC_FRAGMENT);
+                        entries.add(ModItems.STEEL_INGOT);
                         //Discs
                         entries.add(ModItems.BERB_DISC);
                         entries.add(ModItems.CAT_QUEST_DISC);

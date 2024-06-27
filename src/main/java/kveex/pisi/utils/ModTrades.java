@@ -8,8 +8,8 @@ import net.minecraft.village.TradeOffer;
 import net.minecraft.village.VillagerProfession;
 
 public class ModTrades {
-    public static void registerModTrades() {                                          //Farmer trade for bundle of seeds
-        TradeOfferHelper.registerVillagerOffers(VillagerProfession.FARMER, 3,
+    public static void registerModTrades() {
+        TradeOfferHelper.registerVillagerOffers(VillagerProfession.FARMER, 3, //Farmer trade for bundle of seeds
                 factories -> {
                     factories.add(((entity, random) -> new TradeOffer(
                         new ItemStack(ModItems.BUNDLE_OF_SEEDS, 4),
@@ -18,11 +18,20 @@ public class ModTrades {
                     ));
                 }
         );
-        TradeOfferHelper.registerVillagerOffers(VillagerProfession.CARTOGRAPHER, 3,
+        TradeOfferHelper.registerVillagerOffers(VillagerProfession.CARTOGRAPHER, 3, //Farmer trade for disc
                 factories -> {
                     factories.add(((entity, random) -> new TradeOffer(
                             new ItemStack(Items.EMERALD, 32),
                             new ItemStack(ModItems.CAT_QUEST_DISC, 1),
+                            6,5, 0.05f)
+                    ));
+                }
+        );
+        TradeOfferHelper.registerVillagerOffers(VillagerProfession.WEAPONSMITH, 3, //Weaponsmith trade for bundle of seeds
+                factories -> {
+                    factories.add(((entity, random) -> new TradeOffer(
+                            new ItemStack(Items.EMERALD, 64),
+                            new ItemStack(ModItems.FUNNY_INGOT, 1),
                             6,5, 0.05f)
                     ));
                 }

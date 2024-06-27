@@ -11,6 +11,12 @@
     "pisi:deepslate_pot_n",
     "pisi:deepslate_pot_t",
     "pisi:deepslate_pot_te",
-    "pisi:deepslate_pot_ts"
+    "pisi:deepslate_pot_ts",
+    "pisi:steel_block",
+    "pisi:cutted_steel_block",
+    "pisi:thin_steel_block",
+    "pisi:steel_slab",
+    "pisi:steel_stairs",
+    "pisi:steel_trapdoor"
   ]
 }

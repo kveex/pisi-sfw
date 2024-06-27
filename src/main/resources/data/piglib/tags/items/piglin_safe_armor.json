@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "pisi:amethyst_golden_helmet",
+    "pisi:amethyst_golden_chestplate",
+    "pisi:amethyst_golden_leggings",
+    "pisi:amethyst_golden_boots"
+  ]
+}

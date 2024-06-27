@@ -8,6 +8,7 @@ import kveex.pisi.utils.FlammableBlocks;
 import kveex.pisi.utils.ModItemGroups;
 import kveex.pisi.utils.ModTrades;
 import net.fabricmc.api.ModInitializer;
+import net.fabricmc.fabric.api.registry.StrippableBlockRegistry;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

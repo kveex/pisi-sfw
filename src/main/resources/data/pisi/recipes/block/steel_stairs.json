@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "wooden_stairs",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "pisi:steel_block"
+    }
+  },
+  "result": {
+    "item": "pisi:steel_stairs",
+    "count": 8
+  }
+}

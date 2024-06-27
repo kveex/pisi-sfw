@@ -26,10 +26,27 @@ public class ModSounds {
     public static final SoundEvent SlimedGlowStoneHit = registerSoundEvent("slimed_glowstone_dust_hit");
     public static final SoundEvent SlimedGlowStoneFall = registerSoundEvent("slimed_glowstone_dust_fall");
 
+    public static final SoundEvent STEEL_BLOCK_BREAK = registerSoundEvent("steel_block_break");
+    public static final SoundEvent STEEL_BLOCK_STEP = registerSoundEvent("steel_block_step");
+    public static final SoundEvent STEEL_BLOCK_PLACE = registerSoundEvent("steel_block_place");
+    public static final SoundEvent STEEL_BLOCK_HIT = registerSoundEvent("steel_block_hit");
+    public static final SoundEvent STEEL_BLOCK_FALL = registerSoundEvent("steel_block_fall");
+
+    public static final BlockSoundGroup STEEL_BLOCK = new BlockSoundGroup(1f, 1f,
+            ModSounds.STEEL_BLOCK_BREAK,
+            ModSounds.STEEL_BLOCK_STEP,
+            ModSounds.STEEL_BLOCK_PLACE,
+            ModSounds.STEEL_BLOCK_HIT,
+            ModSounds.STEEL_BLOCK_FALL
+    );
+
     public static final BlockSoundGroup SlimedGlowStoneBlock = new BlockSoundGroup(1f, 1f,
-            ModSounds.SlimedGlowStoneBreak, ModSounds.SlimedGlowStoneStep,
-            ModSounds.SlimedGlowStonePlace, ModSounds.SlimedGlowStoneHit,
-            ModSounds.SlimedGlowStoneFall);
+            ModSounds.SlimedGlowStoneBreak,
+            ModSounds.SlimedGlowStoneStep,
+            ModSounds.SlimedGlowStonePlace,
+            ModSounds.SlimedGlowStoneHit,
+            ModSounds.SlimedGlowStoneFall
+    );
     //----------------------------------------------------------------------------------------------------------------//
     public static SoundEvent registerSoundEvent(String name) {
         Identifier id = new Identifier(Pisi.MOD_ID, name);

@@ -19,6 +19,10 @@ repositories {
         name = "Ladysnake Libs"
         url = 'https://maven.ladysnake.org/releases'
     }
+    maven {
+        url = "https://maven.shedaniel.me/"
+        name = "Shedaniel"
+    }
 }
 
 loom {
@@ -48,6 +52,10 @@ dependencies {
 
     //Trinkets
     modImplementation "dev.emi:trinkets:${trinkets_version}"
+
+    //PigLib
+    modApi "com.shnupbups:Piglib:1.2.0+fabric-mc1.20.4"
+    include "com.shnupbups:Piglib:1.2.0+fabric-mc1.20.4"
 }
 
 processResources {

@@ -20,10 +20,10 @@ public class PisiClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.LAVA_LAMP_LIME, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.LAVA_LAMP_PINK, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.LAVA_LAMP_PURPLE, RenderLayer.getCutout());
-        //Alt oak door and trapdoor transparency
+        //All trapdoor transparency
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.ALT_OAK_DOOR, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.ALT_OAK_TRAPDOOR, RenderLayer.getCutout());
-        //Alt spruce door transparency
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.ALT_SPRUCE_DOOR, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.STEEL_TRAPDOOR, RenderLayer.getCutout());
     }
 }

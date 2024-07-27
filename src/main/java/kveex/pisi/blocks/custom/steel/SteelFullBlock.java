@@ -22,14 +22,15 @@ public class SteelFullBlock extends Block {
         super(settings);
     }
 
-    @Override
+    /*@Override
     public ActionResult onUse(BlockState state, World world, BlockPos pos, PlayerEntity player, Hand hand, BlockHitResult hit) {
         if (!player.getItemCooldownManager().isCoolingDown(Blocks.AIR.asItem()) &&
                 (player.getMainHandStack().getItem() instanceof PickaxeItem)) {
 
             world.setBlockState(pos, ModBlocks.STEEL_BLOCK_MID.getDefaultState());
-            world.addBlockBreakParticles(pos, state);
+            world.addBlockBreakParticles(pos, ModBlocks.STEEL_BLOCK_FULL.getDefaultState());
             world.playSoundAtBlockCenter(pos, ModSounds.STEEL_BLOCK_PLACE, SoundCategory.BLOCKS, 1f, 1f, true);
+
 
             //player.dropItem(new ItemStack(ModItems.STEEL_INGOT), false, true);
             player.dropStack(new ItemStack(ModItems.STEEL_INGOT), 0);
@@ -38,5 +39,5 @@ public class SteelFullBlock extends Block {
             return ActionResult.SUCCESS;
         }
         return ActionResult.PASS;
-    }
+    }*/
 }

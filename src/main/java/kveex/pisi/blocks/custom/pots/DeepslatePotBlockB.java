@@ -1,9 +1,7 @@
 package kveex.pisi.blocks.custom.pots;
 
-import com.mojang.serialization.MapCodec;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
-import net.minecraft.block.HorizontalFacingBlock;
 import net.minecraft.block.ShapeContext;
 import net.minecraft.fluid.FluidState;
 import net.minecraft.fluid.Fluids;
@@ -30,10 +28,6 @@ public class DeepslatePotBlockB extends Block {
     }
 
     @Override
-    protected MapCodec<? extends HorizontalFacingBlock> getCodec() {
-        return null;
-    }
-    @Override
     public VoxelShape getOutlineShape(BlockState state, BlockView world, BlockPos pos, ShapeContext ctx) {
         Direction dir = state.get(FACING);
         return switch (dir) {
@@ -49,9 +43,10 @@ public class DeepslatePotBlockB extends Block {
 
     @Override
     public BlockState getPlacementState(ItemPlacementContext ctx) {
+        FluidState fluidState = ctx.getWorld().getFluidState(ctx.getBlockPos());
         return (BlockState)this.getDefaultState()
                 .with(Properties.HORIZONTAL_FACING, ctx.getHorizontalPlayerFacing().getOpposite())
-                .with(WATERLOGGED, ctx.getWorld().getFluidState(ctx.getBlockPos()).getFluid() == Fluids.WATER);
+                .with(WATERLOGGED, fluidState.getFluid() == Fluids.WATER);
     }
     @Override
     public FluidState getFluidState(BlockState state) {

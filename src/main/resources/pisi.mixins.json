@@ -4,6 +4,8 @@
   "package": "kveex.pisi.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
+    "LivingEntityMixin",
+    "ClientPlayNetworkHandlerMixin"
   ],
   "client": [
   ],

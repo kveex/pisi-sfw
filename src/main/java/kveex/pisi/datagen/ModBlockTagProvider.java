@@ -15,12 +15,5 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
 
     @Override
     protected void configure(RegistryWrapper.WrapperLookup arg) {
-        getOrCreateTagBuilder(BlockTags.NEEDS_STONE_TOOL)
-                .add(ModBlocks.STEEL_BLOCK_FULL)
-                .add(ModBlocks.STEEL_BLOCK_MID)
-                .add(ModBlocks.STEEL_BLOCK_MIN)
-                .add(ModBlocks.STEEL_STAIRS)
-                .add(ModBlocks.STEEL_SLAB)
-                .add(ModBlocks.STEEL_TRAPDOOR);
         }
     }

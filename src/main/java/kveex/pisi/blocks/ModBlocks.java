@@ -34,6 +34,8 @@ public class ModBlocks {
             new SlimedGlowStoneBlock(FabricBlockSettings.create()
                     .sounds(ModSounds.SlimedGlowStoneBlock).luminance(11)
                     .collidable(false).breakInstantly().nonOpaque()));
+    public static final Block PIDORAS = registerBlocks("pidoras",
+            new Block(FabricBlockSettings.create().nonOpaque()));
     //Deepslate Pots--------------------------------------------------------------------------------------------------\\
     public static final Block DEEPSLATE_POT_B = registerBlocks("deepslate_pot_b",
             new DeepslatePotBlockB(FabricBlockSettings.create().strength(STONE)));
@@ -46,18 +48,20 @@ public class ModBlocks {
     public static final Block DEEPSLATE_POT_TS = registerBlocks("deepslate_pot_ts",
             new DeepslatePotBlockTs(FabricBlockSettings.create().strength(STONE).nonOpaque()));
     //Steel-----------------------------------------------------------------------------------------------------------\\
-    public static final Block STEEL_BLOCK_FULL = registerBlocks("steel_block", new SteelFullBlock(FabricBlockSettings.create()
+    /*public static final Block STEEL_BLOCK_FULL = registerBlocks("steel_block", new SteelFullBlock(FabricBlockSettings.create()
             .sounds(ModSounds.STEEL_BLOCK).strength(METAL)));
     public static final Block STEEL_BLOCK_MID = registerBlocks("cutted_steel_block", new SteelMidBlock(FabricBlockSettings.create()
             .sounds(ModSounds.STEEL_BLOCK).strength(METAL)));
     public static final Block STEEL_BLOCK_MIN = registerBlocks("thin_steel_block", new SteelMinBlock(FabricBlockSettings.create()
-            .sounds(ModSounds.STEEL_BLOCK).strength(METAL)));
+            .sounds(ModSounds.STEEL_BLOCK).strength(METAL)));*/
+    public static final Block STEEL_BLOCK_FULL = registerBlocks("steel_block", new Block(FabricBlockSettings.create()
+            .requiresTool().sounds(ModSounds.STEEL_BLOCK).strength(METAL)));
     public static final Block STEEL_STAIRS = registerBlocks("steel_stairs", new StairsBlock(ModBlocks.STEEL_BLOCK_FULL.getDefaultState(),
-            FabricBlockSettings.create().sounds(ModSounds.STEEL_BLOCK).strength(METAL)));
+            FabricBlockSettings.create().requiresTool().sounds(ModSounds.STEEL_BLOCK).strength(METAL)));
     public static final Block STEEL_SLAB = registerBlocks("steel_slab", new SlabBlock(FabricBlockSettings.create()
-            .sounds(ModSounds.STEEL_BLOCK).strength(METAL)));
+            .requiresTool().sounds(ModSounds.STEEL_BLOCK).strength(METAL)));
     public static final Block STEEL_TRAPDOOR = registerBlocks("steel_trapdoor", new TrapdoorBlock(BlockSetType.IRON, FabricBlockSettings.create()
-            .sounds(ModSounds.STEEL_BLOCK).strength(METAL).nonOpaque()));
+            .requiresTool().sounds(ModSounds.STEEL_BLOCK).strength(METAL).nonOpaque()));
     //Lamps-----------------------------------------------------------------------------------------------------------\\
     public static final Block LAVA_LAMP = registerBlocks("lava_lamp",
             new LavaLamp(FabricBlockSettings.create()

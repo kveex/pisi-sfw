@@ -24,6 +24,7 @@ public class ModItems {
     public static final Item BUNDLE_OF_SEEDS = registerItems("bundle_of_seeds", new Item(new FabricItemSettings().maxCount(16)));
     public static final Item BERB_DISC_FRAGMENT = registerItems("disc_fragment_berb", new Item(new FabricItemSettings().maxCount(8)));
     public static final Item AMETHYST_UPGRADE_SMITHING_TEMPLATE = registerItems("amethyst_upgrade_smithing_template", new Item(new FabricItemSettings()));
+    public static final Item TOTEM_OF_HELPLESSNESS = registerItems("totem_of_helplessness", new Item(new FabricItemSettings()));
     //Steel Items-----------------------------------------------------------------------------------------------------\\
     public static final Item STEEL_INGOT = registerItems("steel_ingot", new Item(new FabricItemSettings()));
     public static final Item FUNNY_INGOT = registerItems("funny_ingot", new FunnyIngotItem(new FabricItemSettings()));
@@ -88,6 +89,7 @@ public class ModItems {
     private static void addItemsToIngredients(FabricItemGroupEntries entries) {   //Adding items to ingredient creative tab
         entries.addAfter(Items.NETHERITE_UPGRADE_SMITHING_TEMPLATE, ModItems.AMETHYST_UPGRADE_SMITHING_TEMPLATE);
         entries.addAfter(Items.RAW_GOLD, ModItems.ROTTING_ORE);
+        entries.addAfter(Items.IRON_INGOT, ModItems.STEEL_INGOT);
         entries.addAfter(ModItems.ROTTING_ORE, ModItems.SHINY_ORE);
         entries.addAfter(ModItems.SHINY_ORE, ModItems.SHINY_ORES);
         entries.addAfter(Items.NETHERITE_INGOT, ModItems.SHINY_INGOT);

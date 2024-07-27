@@ -27,6 +27,13 @@ public class ModItemGroups {
                         entries.add(ModBlocks.DEEPSLATE_POT_T);
                         entries.add(ModBlocks.DEEPSLATE_POT_TE);
                         entries.add(ModBlocks.DEEPSLATE_POT_TS);
+                        //Steel blocks
+                        entries.add(ModBlocks.STEEL_BLOCK_FULL);
+                        //entries.add(ModBlocks.STEEL_BLOCK_MID);
+                        //entries.add(ModBlocks.STEEL_BLOCK_MIN);
+                        entries.add(ModBlocks.STEEL_STAIRS);
+                        entries.add(ModBlocks.STEEL_SLAB);
+                        entries.add(ModBlocks.STEEL_TRAPDOOR);
                         //Lava Lamps
                         entries.add(ModBlocks.LAVA_LAMP);
                         entries.add(ModBlocks.LAVA_LAMP_RED);

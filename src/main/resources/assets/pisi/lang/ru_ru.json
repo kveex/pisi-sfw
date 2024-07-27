@@ -24,6 +24,7 @@
   "block.pisi.alt_spruce_door": "Гладкая еловая дверь",
   "block.pisi.alt_spruce_wall": "Гладкая еловая ограда",
   "block.pisi.alt_spruce_trapdoor": "Гладкий еловый люк",
+
   "block.pisi.alt_oak_plank": "Гладкие дубовые доски",
   "block.pisi.alt_oak_stairs": "Гладкие дубовые ступеньки",
   "block.pisi.alt_oak_slab": "Гладкая дубовая плита",
@@ -34,6 +35,27 @@
   "block.pisi.alt_oak_wall": "Гладкая дубовая ограда",
   "block.pisi.alt_oak_door": "Гладкая дубовая дверь",
   "block.pisi.alt_oak_trapdoor": "Гладкий дубовый люк",
+
+  "block.pisi.deepslate_pot_n": "Горшок из глубинного сланца",
+  "block.pisi.deepslate_pot_b": "Горшок из глубинного сланца",
+  "block.pisi.deepslate_pot_t": "Горшок из глубинного сланца",
+  "block.pisi.deepslate_pot_te": "Горшок из глубинного сланца",
+  "block.pisi.deepslate_pot_ts": "Горшок из глубинного сланца",
+
+  "block.pisi.steel_block": "Стальной блок",
+  "block.pisi.cutted_steel_block": "Обрезанный стальной блок",
+  "block.pisi.thin_steel_block": "Тонкий стальной блок",
+  "block.pisi.steel_stairs": "Стальные ступеньки",
+  "block.pisi.steel_slab": "Стальная плита",
+  "block.pisi.steel_trapdoor": "Стальной люк",
+
+  "block.pisi.lava_lamp": "Лава-Лампа",
+  "block.pisi.lava_lamp_red": "Красная Лава-Лампа",
+  "block.pisi.lava_lamp_blue": "Синяя Лава-Лампа",
+  "block.pisi.lava_lamp_yellow": "Жёлтая Лава-Лампа",
+  "block.pisi.lava_lamp_lime": "Салатовая Лава-Лампа",
+  "block.pisi.lava_lamp_pink": "Розовая Лава-Лампа",
+  "block.pisi.lava_lamp_purple": "Фиолетовая Лава-Лампа",
 
   "item.pisi.amethyst_upgrade_smithing_template": "Кузнечный шаблон",
   "item.pisi.warm_stick": "Палки на пару",

@@ -35,6 +35,27 @@
   "block.pisi.alt_oak_door": "Smooth Oak Door",
   "block.pisi.alt_oak_trapdoor": "Smooth Oak Trapdoor",
 
+  "block.pisi.deepslate_pot_n": "Deepslate Pot",
+  "block.pisi.deepslate_pot_b": "Deepslate Pot",
+  "block.pisi.deepslate_pot_t": "Deepslate Pot",
+  "block.pisi.deepslate_pot_te": "Deepslate Pot",
+  "block.pisi.deepslate_pot_ts": "Deepslate Pot",
+
+  "block.pisi.steel_block": "Steel Block",
+  "block.pisi.cutted_steel_block": "Cutted Steel Block",
+  "block.pisi.thin_steel_block": "Thin Steel Block",
+  "block.pisi.steel_stairs": "Steel Stairs",
+  "block.pisi.steel_slab": "Steel Slab",
+  "block.pisi.steel_trapdoor": "Steel Trapdoor",
+
+  "block.pisi.lava_lamp": "Lava Lamp",
+  "block.pisi.lava_lamp_red": "Red Lava Lamp",
+  "block.pisi.lava_lamp_blue": "Blue Lava Lamp",
+  "block.pisi.lava_lamp_yellow": "Yellow Lava LAmp",
+  "block.pisi.lava_lamp_lime": "Lime Lava Lamp",
+  "block.pisi.lava_lamp_pink": "Pink Lava Lamp",
+  "block.pisi.lava_lamp_purple": "Purple Lava Lamp",
+
   "item.pisi.amethyst_upgrade_smithing_template": "Smithing Template",
   "item.pisi.warm_stick": "Warm Sticks",
   "item.pisi.bundle_of_seeds": "Bundle of Seeds",

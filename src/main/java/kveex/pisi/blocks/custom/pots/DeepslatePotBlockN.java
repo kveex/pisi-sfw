@@ -34,8 +34,9 @@ public class DeepslatePotBlockN extends Block {
     }
     @Override
     public BlockState getPlacementState(ItemPlacementContext ctx) {
+        FluidState fluidState = ctx.getWorld().getFluidState(ctx.getBlockPos());
         return (BlockState)this.getDefaultState()
-                .with(WATERLOGGED, ctx.getWorld().getFluidState(ctx.getBlockPos()).getFluid() == Fluids.WATER);
+                .with(WATERLOGGED, fluidState.getFluid() == Fluids.WATER);
     }
     @Override
     public FluidState getFluidState(BlockState state) {

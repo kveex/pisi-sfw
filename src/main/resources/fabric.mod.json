@@ -10,7 +10,7 @@
   "contact": {
     "repo": "https://github.com/kveee/pisi-sfw"
   },
-  "license": "All-Rights-Reserved",
+  "license": "MIT",
   "environment": "*",
   "entrypoints": {
     "client": [

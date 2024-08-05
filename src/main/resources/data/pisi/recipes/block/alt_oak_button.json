@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "blocks",
+  "ingredients": [
+    {
+      "item": "pisi:alt_oak_plank"
+    }
+  ],
+  "result": {
+    "item": "pisi:alt_oak_button",
+    "count": 1
+  }
+}

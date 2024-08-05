@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "category": "blocks",
+  "ingredient": {
+    "item": "pisi:alt_oak_plank"
+  },
+  "result": "pisi:alt_oak_trapdoor",
+  "count": 1
+}

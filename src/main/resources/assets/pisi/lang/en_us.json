@@ -59,6 +59,7 @@
   "item.pisi.amethyst_upgrade_smithing_template": "Smithing Template",
   "item.pisi.warm_stick": "Warm Sticks",
   "item.pisi.bundle_of_seeds": "Bundle of Seeds",
+  "item.pisi.steel_ingot": "Steel Ingot",
 
   "item.pisi.ring": "Ring",
   "item.pisi.ring_with_diamond": "Ring with Diamond",
@@ -72,6 +73,11 @@
   "item.pisi.amethyst_golden_shovel": "§dAmethyst-Gold Shovel",
   "item.pisi.amethyst_golden_hoe": "§dAmethyst-Gold Hoe",
 
+  "item.pisi.amethyst_golden_helmet": "§dAmethyst-Gold Helmet",
+  "item.pisi.amethyst_golden_chestplate": "§dAmethyst-Gold Chestplate",
+  "item.pisi.amethyst_golden_leggings": "§dAmethyst-Gold Leggings",
+  "item.pisi.amethyst_golden_boots": "§dAmethyst-Gold Boots",
+
   "item.pisi.amethyst_diamond_pickaxe": "§dAmethyst-Diamond Pickaxe",
   "item.pisi.amethyst_diamond_axe": "§dAmethyst-Diamond Axe",
   "item.pisi.amethyst_diamond_sword": "§dAmethyst-Diamond Sword",
@@ -79,12 +85,22 @@
   "item.pisi.amethyst_diamond_shovel": "§dAmethyst-Diamond Shovel",
   "item.pisi.amethyst_diamond_hoe": "§dAmethyst-Diamond Hoe",
 
+  "item.pisi.amethyst_diamond_helmet": "§dAmethyst-Diamond Helmet",
+  "item.pisi.amethyst_diamond_chestplate": "§dAmethyst-Diamond Chestplate",
+  "item.pisi.amethyst_diamond_leggings": "§dAmethyst-Diamond Leggings",
+  "item.pisi.amethyst_diamond_boots": "§dAmethyst-Diamond Boots",
+
   "item.pisi.amethyst_netherite_pickaxe": "§dAmethyst-Netherite Pickaxe",
   "item.pisi.amethyst_netherite_axe": "§dAmethyst-Netherite Axe",
   "item.pisi.amethyst_netherite_sword": "§dAmethyst-Netherite Sword",
   "item.pisi.amethyst_netherite_spiked_sword": "§dAmethyst-Netherite Spiked Sword",
   "item.pisi.amethyst_netherite_shovel": "§dAmethyst-Netherite Shovel",
   "item.pisi.amethyst_netherite_hoe": "§dAmethyst-Netherite Hoe",
+
+  "item.pisi.amethyst_netherite_helmet": "§dAmethyst-Netherite Helmet",
+  "item.pisi.amethyst_netherite_chestplate": "§dAmethyst-Netherite Chestplate",
+  "item.pisi.amethyst_netherite_leggings": "§dAmethyst-Netherite Leggings",
+  "item.pisi.amethyst_netherite_boots": "§dAmethyst-Netherite Boots",
 
   "item.pisi.cat_quest_disc": "§bMusic Disc",
   "item.pisi.cat_quest_disc.desc": "Cat Quest - Kitty Magic",
@@ -98,6 +114,11 @@
   "item.pisi.shiny_ore": "Shiny Ore",
   "item.pisi.shiny_ores": "Shiny Ores",
   "item.pisi.shiny_ingot": "Shiny Ingot",
+
+  "item.pisi.shiny_helmet": "Shiny Helmet",
+  "item.pisi.shiny_chestplate": "Shiny Chestplate",
+  "item.pisi.shiny_leggings": "Shiny Leggings",
+  "item.pisi.shiny_boots": "Shiny Boots",
 
   "tooltip.pisi.ring": "Just a cute ring :3",
   "tooltip.pisi.ring_with_diamond": "You feels faster",

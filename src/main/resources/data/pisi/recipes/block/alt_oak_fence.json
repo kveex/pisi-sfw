@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "blocks",
+  "pattern": [
+    "qsq",
+    "qsq"
+  ],
+  "key": {
+    "q": {
+      "item": "pisi:alt_oak_plank"
+    },
+    "s": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "pisi:alt_oak_fence",
+    "count": 6
+  }
+}

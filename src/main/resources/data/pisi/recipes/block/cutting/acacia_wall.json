@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "category": "blocks",
+  "ingredient": {
+    "item": "minecraft:acacia_planks"
+  },
+  "result": "pisi:acacia_wall",
+  "count": 1
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "category": "blocks",
+  "ingredient": {
+    "item": "minecraft:dark_oak_planks"
+  },
+  "result": "pisi:dark_oak_wall",
+  "count": 1
+}

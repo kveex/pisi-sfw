@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "category": "blocks",
+  "ingredient": {
+    "item": "minecraft:jungle_planks"
+  },
+  "result": "pisi:jungle_wall",
+  "count": 1
+}

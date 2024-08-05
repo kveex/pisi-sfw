@@ -3,7 +3,6 @@
     "pisi:steel_block",
     "pisi:steel_stairs",
     "pisi:steel_slab",
-    "pisi:steel_trapdoor",
-    "pisi:ice_bricks"
+    "pisi:steel_trapdoor"
   ]
 }

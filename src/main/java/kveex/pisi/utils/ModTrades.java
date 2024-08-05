@@ -27,14 +27,5 @@ public class ModTrades {
                     ));
                 }
         );
-        TradeOfferHelper.registerVillagerOffers(VillagerProfession.WEAPONSMITH, 3, //Weaponsmith trade for bundle of seeds
-                factories -> {
-                    factories.add(((entity, random) -> new TradeOffer(
-                            new ItemStack(Items.EMERALD, 64),
-                            new ItemStack(ModItems.FUNNY_INGOT, 1),
-                            6,5, 0.05f)
-                    ));
-                }
-        );
     }
 }

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "category": "blocks",
+  "ingredient": {
+    "item": "minecraft:mangrove_planks"
+  },
+  "result": "pisi:mangrove_wall",
+  "count": 1
+}

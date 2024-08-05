@@ -15,7 +15,6 @@ public class GunpowderBlock extends FallingBlock {
     public GunpowderBlock(Settings settings) {
         super(settings);
     }
-
     @Override
     protected MapCodec<? extends FallingBlock> getCodec() {
         return null;
@@ -23,7 +22,7 @@ public class GunpowderBlock extends FallingBlock {
 
     @Override //Creating explosion on click
     public ActionResult onUse(BlockState state, World world, BlockPos pos, PlayerEntity player, Hand hand, BlockHitResult hit) {
-        if ((player.getMainHandStack().isOf(Items.FIRE_CHARGE) || player.getMainHandStack().isOf(Items.FLINT_AND_STEEL))) {
+        if (player.getStackInHand(hand).isOf(Items.FLINT_AND_STEEL) || player.getStackInHand(hand).isOf(Items.FIRE_CHARGE)) {
             world.removeBlock(pos, false);
             world.createExplosion(null, pos.getX(), pos.getY(), pos.getZ(), 16.0f, World.ExplosionSourceType.BLOCK);
             return ActionResult.SUCCESS;

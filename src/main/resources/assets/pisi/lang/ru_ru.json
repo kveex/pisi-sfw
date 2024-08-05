@@ -60,6 +60,7 @@
   "item.pisi.amethyst_upgrade_smithing_template": "Кузнечный шаблон",
   "item.pisi.warm_stick": "Палки на пару",
   "item.pisi.bundle_of_seeds": "Мешок семян",
+  "item.pisi.steel_ingot": "Стальной слиток",
 
   "item.pisi.ring": "Кольцо",
   "item.pisi.ring_with_diamond": "Кольцо с алмазиком",
@@ -73,6 +74,11 @@
   "item.pisi.amethyst_golden_shovel": "§dАметистово-золотая лопата",
   "item.pisi.amethyst_golden_hoe": "§dАметистово-золотая мотыга",
 
+  "item.pisi.amethyst_golden_helmet": "§dАметистово-золотой шлем",
+  "item.pisi.amethyst_golden_chestplate": "§dАметистово-золотой нагрудник",
+  "item.pisi.amethyst_golden_leggings": "§dАметистово-золотые поножи",
+  "item.pisi.amethyst_golden_boots": "§dАметистово-золотые ботинки",
+
   "item.pisi.amethyst_diamond_pickaxe": "§dАметистово-алмазная кирка",
   "item.pisi.amethyst_diamond_axe": "§dАметистово-алмазный топор",
   "item.pisi.amethyst_diamond_sword": "§dАметистово-алмазный меч",
@@ -80,12 +86,22 @@
   "item.pisi.amethyst_diamond_shovel": "§dАметистово-алмазная лопата",
   "item.pisi.amethyst_diamond_hoe": "§dАметистово-алмазная мотыга",
 
+  "item.pisi.amethyst_diamond_helmet": "§dАметистово-алмазный шлем",
+  "item.pisi.amethyst_diamond_chestplate": "§dАметистово-алмазный нагрудник",
+  "item.pisi.amethyst_diamond_leggings": "§dАметистово-алмазные поножи",
+  "item.pisi.amethyst_diamond_boots": "§dАметистово-алмазные ботинки",
+
   "item.pisi.amethyst_netherite_pickaxe": "§dАметистово-незеритовая кирка",
   "item.pisi.amethyst_netherite_axe": "§dАметистово-незеритовая топор",
   "item.pisi.amethyst_netherite_sword": "§dАметистово-незеритовый меч",
   "item.pisi.amethyst_netherite_spiked_sword": "§dАметистово-незеритовый шипастый меч",
   "item.pisi.amethyst_netherite_shovel": "§dАметистово-незеритовая лопата",
   "item.pisi.amethyst_netherite_hoe": "§dАметистово-незеритовая мотыга",
+
+  "item.pisi.amethyst_netherite_helmet": "§dАметистово-незеритовый шлем",
+  "item.pisi.amethyst_netherite_chestplate": "§dАметистово-незеритовый нагрудник",
+  "item.pisi.amethyst_netherite_leggings": "§dАметистово-незеритовые поножи",
+  "item.pisi.amethyst_netherite_boots": "§dАметистово-незеритовые ботинки",
 
   "item.pisi.cat_quest_disc": "§bПластинка",
   "item.pisi.cat_quest_disc.desc": "Cat Quest - Kitty Magic",
@@ -99,6 +115,11 @@
   "item.pisi.shiny_ore": "Сияющая руда",
   "item.pisi.shiny_ores": "Сияющие руды",
   "item.pisi.shiny_ingot": "Сияющий слиток",
+
+  "item.pisi.shiny_helmet": "Сияющий шлем",
+  "item.pisi.shiny_chestplate": "Сияющий нагрудник",
+  "item.pisi.shiny_leggings": "Сияющие поножи",
+  "item.pisi.shiny_boots": "Сияющие ботинки",
 
   "tooltip.pisi.ring": "Просто милое колечко",
   "tooltip.pisi.ring_with_diamond": "Ты чувствуешь себя быстрее",

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:blasting",
+  "category": "equipment",
+  "ingredient": {
+    "item": "pisi:rotting_ore"
+  },
+  "result": "pisi:shiny_ore", 
+  "experience": 100,
+  "cookingtime": 1200
+}

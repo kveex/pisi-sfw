@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "blocks",
+  "pattern": [
+    "q  ",
+    "qq ",
+    "qqq"
+  ],
+  "key": {
+    "q": {
+      "item": "pisi:alt_spruce_plank"
+    }
+  },
+  "result": {
+    "item": "pisi:alt_spruce_stairs",
+    "count": 4
+  }
+}

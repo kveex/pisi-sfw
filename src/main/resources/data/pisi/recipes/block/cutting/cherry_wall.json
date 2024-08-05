@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "category": "blocks",
+  "ingredient": {
+    "item": "minecraft:cherry_planks"
+  },
+  "result": "pisi:cherry_wall",
+  "count": 1
+}

@@ -34,8 +34,6 @@ public class ModBlocks {
             new SlimedGlowStoneBlock(FabricBlockSettings.create()
                     .sounds(ModSounds.SlimedGlowStoneBlock).luminance(11)
                     .collidable(false).breakInstantly().nonOpaque()));
-    public static final Block PIDORAS = registerBlocks("pidoras",
-            new Block(FabricBlockSettings.create().nonOpaque()));
     //Deepslate Pots--------------------------------------------------------------------------------------------------\\
     public static final Block DEEPSLATE_POT_B = registerBlocks("deepslate_pot_b",
             new DeepslatePotBlockB(FabricBlockSettings.create().strength(STONE)));

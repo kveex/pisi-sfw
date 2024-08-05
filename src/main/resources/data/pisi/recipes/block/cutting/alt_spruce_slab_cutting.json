@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "category": "blocks",
+  "ingredient": {
+    "item": "pisi:alt_spruce_plank"
+  },
+  "result": "pisi:alt_spruce_slab",
+  "count": 2
+}

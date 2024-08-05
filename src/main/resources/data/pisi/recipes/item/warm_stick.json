@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "category": "food",
+  "ingredient": {
+    "item": "minecraft:stick"
+  },
+  "result": "pisi:warm_stick",
+  "experience": 10,
+  "cookingtime": 300
+}
+

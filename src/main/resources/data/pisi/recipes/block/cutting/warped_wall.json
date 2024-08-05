@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "category": "blocks",
+  "ingredient": {
+    "item": "minecraft:warped_planks"
+  },
+  "result": "pisi:warped_wall",
+  "count": 1
+}

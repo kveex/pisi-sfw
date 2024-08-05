@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "category": "blocks",
+  "ingredient": {
+    "item": "pisi:steel_block"
+  },
+  "result": "pisi:steel_slab",
+  "count": 2
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "blocks",
+  "pattern": [
+    "qqq",
+    "qqq"
+  ],
+  "key": {
+    "q": {
+      "item": "pisi:alt_oak_plank"
+    }
+  },
+  "result": {
+    "item": "pisi:alt_oak_wall",
+    "count": 6
+  }
+}

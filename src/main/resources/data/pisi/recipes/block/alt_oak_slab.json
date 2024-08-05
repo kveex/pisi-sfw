@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "blocks",
+  "pattern": [
+    "qqq"
+  ],
+  "key": {
+    "q": {
+      "item": "pisi:alt_oak_plank"
+    }
+  },
+  "result": {
+    "item": "pisi:alt_oak_slab",
+    "count": 6
+  }
+}

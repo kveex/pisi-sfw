@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "oo"
+  ],
+  "key": {
+    "o": {
+      "item": "pisi:shiny_ore"
+    }
+  },
+  "result": {
+    "item": "pisi:shiny_ores",
+    "count": 1
+  }
+}
